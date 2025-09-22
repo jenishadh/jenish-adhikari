@@ -14,7 +14,7 @@ export function SkillsSection() {
         <h2 className="text-xl font-semibold tracking-tight">Skills</h2>
 
         <h3 className="text-sm">{`< LANGUAGES />`}</h3>
-        <div className="flex items-center gap-x-4">
+        <div className="flex flex-wrap items-center gap-4">
           <SkillButton>
             <Image height={16} width={16} src="/typescript-logo.svg" alt="JavaScript Logo" />
             TypeScript
@@ -78,7 +78,7 @@ export function SkillsSection() {
         </div>
 
         <h3 className="text-sm">{`< DATABASE />`}</h3>
-        <div className="flex items-center gap-x-4">
+        <div className="flex flex-wrap items-center gap-4">
           <SkillButton>
             <Image height={16} width={16} src="/postgreSQL-logo.svg" alt="PostgreSQL Logo" />
             PostgreSQL
@@ -94,7 +94,7 @@ export function SkillsSection() {
         </div>
 
         <h3 className="text-sm">{`< DEVELOPER TOOLS />`}</h3>
-        <div className="flex items-center gap-x-4">
+        <div className="flex flex-wrap items-center gap-4">
           <SkillButton>
             <Image height={16} width={16} src="/git-logo.svg" alt="Git Logo" />
             GIT

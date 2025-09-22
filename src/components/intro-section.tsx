@@ -16,7 +16,7 @@ export function IntroSection() {
           focused on backend engineering learning how systems are designed and built. I also have
           experience in front end development so I can make things look good and actually work.
         </p>
-        <div className="flex items-center gap-x-4">
+        <div className="flex flex-wrap items-center gap-4">
           <ExternalLink href="mailto:jenishadhikari2060@gmail.com">
             <Zap className="animate-pulse text-green-400 transition-all duration-500" />
             Available for new opportunities

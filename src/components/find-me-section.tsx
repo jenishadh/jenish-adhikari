@@ -10,7 +10,7 @@ export function FindMeSection() {
     <section>
       <MaxWidthWrapper className="space-y-4">
         <h2 className="text-xl font-semibold tracking-tight">Find me on!</h2>
-        <div className="flex items-center gap-x-4">
+        <div className="flex flex-wrap items-center gap-4">
           <ExternalLink href="https://github.com/jenishxadhikari">
             <BsGithub />
             Github
