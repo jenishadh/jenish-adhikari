@@ -1,4 +1,5 @@
 import { FindMeSection } from '@/components/find-me-section'
+import { Footer } from '@/components/footer'
 import { IntroSection } from '@/components/intro-section'
 import { ProjectsSection } from '@/components/projects-section'
 import { SkillsSection } from '@/components/skills-section'
@@ -16,21 +17,27 @@ export default function Home() {
       />
 
       {/* Your Content/Components */}
-      <main className="relative z-20 space-y-4 py-10 font-mono">
-        <IntroSection />
+      <div className="relative z-20 space-y-4 py-6 font-mono">
+        <main className="space-y-4">
+          <IntroSection />
 
-        <div className="bg-muted mx-auto h-px w-full max-w-2xl" />
+          <div className="bg-muted mx-auto h-px w-full max-w-2xl" />
 
-        <SkillsSection />
+          <SkillsSection />
 
-        <div className="bg-muted mx-auto h-px w-full max-w-2xl" />
+          <div className="bg-muted mx-auto h-px w-full max-w-2xl" />
 
-        <ProjectsSection />
+          <ProjectsSection />
 
-        <div className="bg-muted mx-auto h-px w-full max-w-2xl" />
+          <div className="bg-muted mx-auto h-px w-full max-w-2xl" />
 
-        <FindMeSection />
-      </main>
+          <FindMeSection />
+
+          <div className="bg-muted mx-auto h-px w-full max-w-2xl" />
+        </main>
+
+        <Footer />
+      </div>
     </div>
   )
 }
