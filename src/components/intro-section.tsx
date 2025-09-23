@@ -12,9 +12,10 @@ export function IntroSection() {
           <p>@jenishxadhikari</p>
         </div>
         <p className="text-sm">
-          I am Jenish, a Computer Science & Information Technology student from Nepal. Currently
-          focused on backend engineering learning how systems are designed and built. I also have
-          experience in front end development so I can make things look good and actually work.
+          I am Jenish, a Computer Science student from Nepal. Currently focused on backend
+          engineering, learning how systems are designed and built. I also have experience in
+          frontend development, which allows me to create applications that not only work well but
+          also look good.
         </p>
         <div className="flex flex-wrap items-center gap-4">
           <ExternalLink href="mailto:jenishadhikari2060@gmail.com">
