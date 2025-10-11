@@ -1,4 +1,4 @@
-import { Download, Mail, Zap } from 'lucide-react'
+import { Download, Mail } from 'lucide-react'
 
 import { ExternalLink } from '@/components/external-link'
 import { MaxWidthWrapper } from '@/components/max-width-wrapper'
@@ -18,10 +18,9 @@ export function IntroSection() {
           also look good.
         </p>
         <div className="flex flex-wrap items-center gap-4">
-          <ExternalLink href="mailto:jenishadhikari2060@gmail.com">
-            <Zap className="animate-pulse text-green-400 transition-all duration-500" />
+          <ExternalLink href="https://www.linkedin.com/in/jenishxadhikari">
+            <Mail className="animate-pulse text-green-400 transition-all duration-500" />
             Available for new opportunities
-            <Mail />
           </ExternalLink>
 
           <ExternalLink href="#">
